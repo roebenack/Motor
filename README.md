@@ -2,7 +2,7 @@
 
 ## Summary
 
-This library is intended to control motor shields in the [Arduino](https://www.arduino.cc) environment. We assume that the shields are based on the driver circuits L293 or L298 such as the [Arduino Motor Shield Rev3](https://store.arduino.cc/arduino-motor-shield-rev3) or the [Velleman Motor & Power Shield](https://www.velleman.eu/products/view/?id=412538). The library can control two DC motors. For the application in mobile robotils, Motor A and Motor B are assumed to be mounted on the left and right hand side, respectively, of the robot's chassis.
+This library is intended to control motor shields in the [Arduino](https://www.arduino.cc) environment. We assume that the shields are based on the driver circuits L293 or L298 such as the [Arduino Motor Shield Rev3](https://store.arduino.cc/arduino-motor-shield-rev3) or the [Velleman Motor & Power Shield VMA03](https://www.velleman.eu/products/view/?id=412538). The library can control two DC motors. For the application in mobile robotils, Motor A and Motor B are assumed to be mounted on the left and right hand side, respectively, of the robot's chassis.
 
 ## References
 
