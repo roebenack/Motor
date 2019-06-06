@@ -1,4 +1,4 @@
-# Arduino Motor Library
+# Motor Library for Arduino
 
 ## Summary
 
