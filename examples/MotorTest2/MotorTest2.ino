@@ -18,12 +18,8 @@ int T=500; // Time in ms
 
 void loop()
 {
-  // forward
   motor.forward();   delay(T);
-  // right
   motor.right();     delay(T);
-  // backward
   motor.backward();  delay(T);
-  // left
   motor.left();      delay(T);
 }
