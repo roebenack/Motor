@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For Motor Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Motor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+writeA	KEYWORD2
+writeB	KEYWORD2
+write	KEYWORD2
+forward	KEYWORD2
+backward KEYWORD2
+left 	KEYWORD2
+right	KEYWORD2
+stop	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+VMIN	LITERAL1
+VMAX	LITERAL1
