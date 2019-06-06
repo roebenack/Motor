@@ -8,5 +8,5 @@ This library is intended to control motor shields in the [Arduino](https://www.a
 
 * Röbenack, Klaus: [*Mobile Robotics with Arduino: Design and Programming*](https://www.amazon.de/dp/1726432335). \[English Edition\]  
   CreateSpace Independent Publishing Platform. 2018.
-* Röbenack, Klaus: [https://www.amazon.de/dp/1730747892](*Mobiler Eigenbauroboter mit Arduino: Aufbau und Programmierung*). \[German Edition\]  
+* Röbenack, Klaus: [*Mobiler Eigenbauroboter mit Arduino: Aufbau und Programmierung*](https://www.amazon.de/dp/1730747892). \[German Edition\]  
   Independently published, 2nd Edition, 2018.
