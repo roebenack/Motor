@@ -35,10 +35,15 @@ The above used pins will be configured are output pins with the method ```Motor:
 
 ```void setup () 
 {
-    motor.begin();   
-}```
+    motor.begin();
+}
+```
 
 ### Standard Methods
+
+The following functions control Motor A, Motor B, or both motors simultaneousely. For a 8 bit PWM, the speed values have the range -255...+255. The sign of the value indicated the direction (forward or backward).
+
+Set speed and direction of Motor A:
 
 ```motor.writeA (int speed)```
 
