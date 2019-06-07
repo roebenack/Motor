@@ -12,3 +12,38 @@ The implementation of the library is based on the following books, but has been 
   CreateSpace Independent Publishing Platform. 2018.
 * Röbenack, Klaus: [*Mobiler Eigenbauroboter mit Arduino: Aufbau und Programmierung*](https://www.amazon.de/dp/1730747892). \[German Edition\]  
   Independently published, 2nd Edition, 2018.
+
+## Usage of the Library
+
+### Preparation
+
+To use the Motor Library you have to include the header file ```Motor.h``` first:
+
+```#include <Motor.h>```
+
+Then, you create an instance ```motor``` of the class ```Motor```. No arguments are needed if you use the [Arduino Motor Shield Rev3](https://store.arduino.cc/arduino-motor-shield-rev3):
+
+```Motor motor;```
+
+However, you could specify the digital pins for the directs and the PWM signals. The constructor without arguments corresponds to
+
+```Motor motor(12, 13, 3, 11);```
+
+The first two arguments specify the directions for the two motors, the last two arguments the associated PWM pins. With this constructor, you could also specify different digital pins. 
+
+The above used pins will be configured are output pins with the method ```Motor::begin```. This method is called once in the function ```setup```:
+
+```void setup () 
+{
+    motor.begin();   
+}```
+
+### Standard Methods
+
+```motor.writeA (int speed)```
+
+```motor.writeB (int speed)```
+
+```motor.write (int speedA, int speedB))```
+
+
